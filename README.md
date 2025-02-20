@@ -1,52 +1,57 @@
 - Simple Encryption/Hashing Tool
 
-This project provides a simple security tool that allows users to either hash text using SHA-256 or encrypt/decrypt text using AES-256.
+It is a simple security tool that hashes text using SHA-256 or encrypts/decrypts text using AES-256
+
 
 - Features
+  
+* SHA-256 Hashing: It hashes the input text using the SHA-256.
 
-* SHA-256 Hashing: Hashes the input text using the SHA-256 algorithm.
-
-*AES-256 Encryption/Decryption:
-
+* AES-256 Encryption/Decryption:
+	
 * Generates a 256-bit AES key.
 
 * Encrypts input text using AES in CBC mode.
 
-* Decrypts the encrypted text back to its original form.
+* Decrypts the encrypted text to its original form.
+
 
 - How to Use
 
 1. Setup Environment
 
-Make sure Python is installed and install the required cryptography library:
+Install python and install the required cryptography library:
 
-pip install cryptography
+$  pip install cryptography
 
-2. Run the Program
+2. Execution of the Program
 
 python encryption_tool.py
 
-When the program runs, you will be presented with two options:
+When executed, the program displays two choices:
 
-SHA-256 Hashing
+1) SHA-256 Hashing(hash)
 
-AES Encryption and Decryption
+2) AES Encryption and Decryption (encrypt / decrypt)
 
-Choose an option and follow the prompts to see the results.
+Choose an option and then follow the instructions to see the results.
 
-Limitations
 
-This tool is for educational purposes only and should not be used for securing sensitive data without additional security considerations.
+- Limitations
 
-The AES key is randomly generated during execution and is not stored.
+This tool is constructed for learning purposes and should not be utilized to encrypt sensitive information.
 
-Using a fixed IV (Initialization Vector) in AES encryption can lead to security vulnerabilities.
+AES key is generated and not kept on hand when run.
 
-Ethical Considerations
+There can be a problem with a fixed IV (Initialization Vector) in AES encryption.
 
-This tool is intended for learning security concepts and understanding personal data protection methods. It should not be used for malicious purposes such as bypassing encryption or unauthorized access to protected information.
+- Ethical Implications
 
-📜 License
+The tool is meant for the purposes of educational security principle learning and personal data protection technique learning.
+It should never be employed in criminal usage such as circumventing encryption or accessing protected data without permission.
 
-This project is open-source and can be modified and distributed under the terms of the selected license.
+
+- License
+
+This is an open-source project and can be redistributed and adapted under the terms of the selected license.
 
