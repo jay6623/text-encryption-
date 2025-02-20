@@ -1,9 +1,9 @@
-- Simple Encryption/Hashing Tool
+# Simple Encryption/Hashing Tool
 
 It is a simple security tool that hashes text using SHA-256 or encrypts/decrypts text using AES-256
 
 
-- Features
+# Features
   
  SHA-256 Hashing: It hashes the input text using the SHA-256.
 
@@ -16,7 +16,7 @@ It is a simple security tool that hashes text using SHA-256 or encrypts/decrypts
  Decrypts the encrypted text to its original form.
 
 
-- How to Use
+# How to Use
 
 1. Setup Environment
 
@@ -37,7 +37,7 @@ When executed, the program displays two choices:
 Choose an option and then follow the instructions to see the results.
 
 
-- Limitations
+# Limitations
 
 This tool is constructed for learning purposes and should not be utilized to encrypt sensitive information.
 
@@ -45,13 +45,13 @@ AES key is generated and not kept on hand when run.
 
 There can be a problem with a fixed IV (Initialization Vector) in AES encryption.
 
-- Ethical Implications
+# Ethical Implications
 
 The tool is meant for the purposes of educational security principle learning and personal data protection technique learning.
 It should never be employed in criminal usage such as circumventing encryption or accessing protected data without permission.
 
 
-- License
+# License
 
 This is an open-source project and can be redistributed and adapted under the terms of the selected license.
 
