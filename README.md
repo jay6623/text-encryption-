@@ -5,15 +5,15 @@ It is a simple security tool that hashes text using SHA-256 or encrypts/decrypts
 
 - Features
   
-* SHA-256 Hashing: It hashes the input text using the SHA-256.
+ SHA-256 Hashing: It hashes the input text using the SHA-256.
 
-* AES-256 Encryption/Decryption:
+ AES-256 Encryption/Decryption:
 	
-* Generates a 256-bit AES key.
+ Generates a 256-bit AES key.
 
-* Encrypts input text using AES in CBC mode.
+ Encrypts input text using AES in CBC mode.
 
-* Decrypts the encrypted text to its original form.
+ Decrypts the encrypted text to its original form.
 
 
 - How to Use
